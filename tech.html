@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Micaela Santos | Portfólio</title>
+  <!-- Bootstrap -->
+  <link rel="stylesheet" type="text/css" href="vendor/bootstrap/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <!--Normalize de CSS-->
+  <link rel="stylesheet" type="text/css" href="css/normalize.css">
+  <!-- Ficheiro de CSS -->
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!--FontAwesome (Online/Offline)-->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.1/css/all.css">
+  <link rel="stylesheet" href="vendor/fontawesome/fontawesome-free-5.15.1-web/css/all.css">
+  <!--Material Icons (Online)-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!--Favicon-->
+  <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
+  <!--Tipo de Letra (Offline)-->
+  <link rel="stylesheet" type="text/css" href="vendor/tipoLetra/JetBrains_Mono/JetBrainsMono-VariableFont_wght.ttf">
+  <link rel="stylesheet" type="text/css"
+    href="vendor/tipoLetra/JetBrains_Mono/JetBrainsMono-Italic-VariableFont_wght.ttf">
+</head>
+
+<body>
+
+  <div id="goToTop" class="btn btn-secondary">
+    <a href="#top" onclick="scrollToTop(); return false"><i class="fas fa-arrow-alt-circle-up"
+        title="Ir para o Topo"></i></a>
+  </div>
+
+  <header class="header_area">
+    <div class="main-menu" id="navbar">
+      <nav class="navbar navbar-expand-lg navbar-light">
+        <a class="navbar-brand" href="#"></a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+          aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"> <span
+            class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <div class="mr-auto"></div>
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link" href="index.html" id="indexTitle_menu">Início</a></li>
+            <li class="nav-item active"><a class="nav-link" href="tech.html" id="techTitle_menu">Tecnologias</a></li>
+            <li class="nav-item"><a class="nav-link" href="projects.html" id="projectsTitle_menu">Projetos</a></li>
+            <li class="nav-item"><a class="nav-link" href="galleryVideos.html" id="galleryTitle_menu">Galeria/Vídeos</a>
+            </li>
+            <li class="nav-item"><a class="nav-link" href="contacts.html" id="contactTitle_menu">Contactos</a></li>
+            <li>
+              <div class="buttonLanguage">
+                <a class="btn btn-outline-secondary" href="idioma_en/tech_en.html" role="button" title="Traduzir para Inglês"><i
+                    class="fas fa-globe"></i> Traduzir para Inglês</a>
+              </div>
+            </li>
+            <li>
+              <div class="buttonExit"> <button type="button" class="btn btn-outline-secondary" data-toggle="modal"
+                  title="Sair" data-target="#exampleModal">
+                  <i class="fas fa-sign-out-alt"></i>
+                </button>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Modal -->
+  <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
+    aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h6 class="modal-title titulo" id="exampleModalLabel">Sair</h6>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close"> <span
+              aria-hidden="true">&times;</span></button>
+        </div>
+        <div class="modal-body">
+          Vai deixar de visualizar o Portfólio.
+          Obrigada!
+        </div>
+        <div class="modal-footer">
+          <input type="button" class="btn btn-warning btn-md text-white titulo" value="Sair"
+            onclick="window.location='https://www.google.com/'">
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <br>
+  <div class="container-fluid">
+    <div class="row">
+      <div class="barra">
+        <div class="texto col-lg-6 col-md-6 col-sm-5 mb-4 mb-md-0">
+          <h3 class="mb-3 titulo" id="techTitle">Tecnologias</h3>
+          <h4 class="mb-4 subtitulo"> { tech } </h4>
+          <p>Apresento as tecnologias aprendidas até ao momento... <br>
+            Desde linguagens direcionadas para a web como software de<br> edição e manipulação de imagem
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <br>
+
+  <div class="container mt-5 mb-5">
+    <h4 class="mb-5 titulo">Competências</h4>
+    <div class="row" style="margin-top: 25px; margin-bottom: 25px">
+      <div class="col-md-12 col-lg-6 ">
+        <div class="mb-4">HTML5 <span class="text-muted small" id="percentHTML">80%</span>
+          <span class="bar"><span class="html"></span></span>
+        </div>
+        <div class="mb-4">CSS <span class="text-muted small" id="percentCSS">75%</span>
+          <span class="bar"><span class="css"></span></span>
+        </div>
+        <div class="mb-4">Bootstrap <span class="text-muted small" id="percentBootstrap">75%</span>
+          <span class="bar"><span class="bootstrap"></span></span>
+        </div>
+        <p class="mb-4">JavaScript <span class="text-muted small" id="percentJavaScript">60%</span>
+          <span class="bar"><span class="javascript"></span></span>
+        </p>
+      </div>
+
+      <div class="col-md-12 col-lg-6 mb-3">
+        <p class="mb-4">Adobe Illustrator <span class="text-muted small" id="percentIllustrator">85%</span>
+          <span class="bar"><span class="illustrator"></span></span>
+        </p>
+        <p class="mb-4">Adobe Photoshop <span class="text-muted small" id="percentPhotoshop">70%</span>
+          <span class="bar"><span class="photoshop"></span></span>
+        </p>
+        <p class="mb-4">Abode XD <span class="text-muted small" id="percentXD">75%</span>
+          <span class="bar"><span class="xd"></span></span>
+        </p>
+        <p class="mb-4">Adobe Premiere <span class="text-muted small" id="percentPremiere">70%</span>
+          <span class="bar"><span class="premiere"></span></span>
+        </p>
+      </div>
+    </div>
+  </div>
+
+  <div class="container mt-5 mb-5">
+    <h4 class="mb-5 titulo">Testemunhos</h4>
+    <div class="row" style="margin-top: 25px; margin-bottom: 25px">
+      <div class="col-md-4 mb-3">
+        <div class="testimonial p-3 bg-dark text-center rounded">
+          <span class="material-icons"><i class="fas fa-quote-right"></i></span>
+          <p>O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão.</p>
+          <div class="rounded-circle" style="background-image: url('img/testimonial_1.jpg')"></div>
+          <h5>João Gonçalves</h5>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="testimonial p-3 bg-dark text-center rounded">
+          <span class="material-icons"><i class="fas fa-quote-right"></i></span>
+          <p>O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão.</p>
+          <div class="rounded-circle" style="background-image: url('img/testimonial_2.jpg')"></div>
+          <h5>Gabriela Silva</h5>
+        </div>
+      </div>
+      <div class="col-md-4 mb-3">
+        <div class="testimonial p-3 bg-dark text-center rounded">
+          <span class="material-icons"><i class="fas fa-quote-right"></i></span>
+          <p>O Lorem Ipsum é um texto modelo da indústria tipográfica e de impressão.</p>
+          <div class="rounded-circle" style="background-image: url('img/testimonial_3.jpg')"></div>
+          <h5>Vanda Rodrigues</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row small font-weight-bold">
+        <ul class="footer_text">
+          <li><a href="index.html">Início</a></li>
+          <li><a href="tech.html">Tecnologias</a></li>
+          <li><a href="projects.html">Projetos</a></li>
+          <li><a href="galleryVideos.html">Galeria/Vídeos</a></li>
+          <li><a href="contacts.html">Contactos</a></li>
+        </ul>
+        <br>
+      </div>
+      <hr>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-8 col-sm-6 col-xs-12" style="font-family: 'JetBrains Mono', monospace; font-size:13px">
+          <p>Copyright &copy;
+            <script>document.write(new Date().getFullYear());</script> Micaela Santos
+          </p>
+        </div>
+
+        <div class="col-md-4 col-sm-6 col-xs-12">
+          <ul class="social-icons">
+            <li><a class="icon_hover" href="https://www.facebook.com/" title="Facebook" target="_blank">
+                <i class="fab fa-facebook-square"></i></a>
+            </li>
+            <li><a class="icon_hover" href="https://www.linkedin.com/" title="Linkedin" target="_blank">
+                <i class="fab fa-linkedin"></i></a>
+            </li>
+            <li><a class="instagram" href="https://www.instagram.com/" title="Instagram" target="_blank">
+                <i class="fab fa-instagram"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!--JQuery & Bootstrap JS-->
+  <script src="js/script.js"></script>
+  <script src="vendor/jquery/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
